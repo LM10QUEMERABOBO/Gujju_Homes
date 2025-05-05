@@ -1,0 +1,176 @@
+.row .column img {
+  vertical-align: middle !important;
+  height: 125px !important;
+}
+
+.mineSlides img {
+  height: 450px !important;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.slidecontainer {
+  position: relative !important;
+}
+
+/* Hide the images by default */
+.mineSlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursors {
+  cursor: pointer !important;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer !important;
+  position: absolute !important;
+  top: 55% !important;
+  width: auto !important;
+  padding: 16px !important;
+  margin-top: -50px !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  border-radius: 0 3px 3px 0 !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0 !important;
+  border-radius: 3px 0 0 3px !important;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2 !important;
+  font-size: 12px !important;
+  padding: 8px 12px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center !important;
+  background-color: #222 !important;
+  padding: 2px 16px !important;
+  color: white !important;
+}
+
+.row {
+  --bs-gutter-x: unset !important;
+}
+
+.row:after {
+  content: "";
+  display: table !important;
+  clear: both !important;
+}
+
+/* Six columns side by side */
+.column {
+  float: left !important;
+  width: 16.66% !important;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demos {
+  opacity: 0.7 !important;
+}
+
+.active,
+.demos:hover {
+  opacity: 1 !important;
+}
+
+.about {
+  display: block;
+}
+
+.index-container {
+  max-width: 750px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+}
+
+.about-img img {
+  border-radius: 0;
+}
+
+.buttons {
+  background: var(--btnhead-color) !important;
+  color: var(--bg-color) !important;
+  border-radius: 5rem;
+  margin-right: 1rem;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+}
+
+.buttons:hover {
+  background: var(--btnhover-color) !important;
+}
+
+.about-text p {
+  font-size: 17px !important;
+  margin: 1rem 0 1rem !important;
+  /* padding: 0 !important; */
+}
+
+table {
+  margin: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  margin: 0px 0;
+  font-size: 15px;
+  min-width: 100%;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+
+table thead tr {
+  color: #fff;
+
+  text-align: left;
+  font-weight: bold;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px 12px 45px !important;
+  font-size: 17px;
+  vertical-align: middle !important;
+
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+.table tbody tr.active {
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid var(--main-color);
+}
+
+.text-center .btn-primary:hover {
+  background: white !important;
+}

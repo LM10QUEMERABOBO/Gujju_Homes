@@ -1,0 +1,139 @@
+body {
+    /* font-family: Arial, Helvetica, sans-serif !important; */
+    margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.row {
+    margin: 0 1rem !important;
+    margin-bottom: 3rem !important;
+}
+.home{
+    background: url("../img/about.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.about_img {
+    position: relative;
+}
+
+.home {
+    position: relative !important;
+}
+.content p{
+  font-family: "Poppins", sans-serif;
+
+    font-size: 18px;
+}
+.content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 80%;
+    height: 600px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    padding: 20px 50px;
+    text-align: justify;
+    /* border: 2px solid black !important; */
+}
+
+.about_head {
+    text-align: center;
+    margin-bottom: 2rem !important;
+}
+
+.content_back {
+    content: '';
+    width: 80%;
+    height: 600px;
+}
+
+.about_head::after {
+    content: '';
+    display: flex;
+    margin: auto;
+    height: 3px;
+    width: 80px;
+    border-radius: 12px;
+    background: #003a64;
+}
+
+.column {
+    float: left !important;
+    width: 25.0% !important;
+    margin-bottom: 16px !important;
+    padding: 0 8px !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+    margin: 8px !important;
+}
+
+.card img {
+    background-size: cover;
+    height: 300px;
+    border-bottom: 2px solid;
+    margin-bottom: 1rem;
+}
+
+.our_img {
+    background: url(../img/kishan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 15%;
+    width: 100%;
+    height: 300px;
+    border-bottom: 2px solid;
+    margin-bottom: 1rem;
+}
+
+.about-section {
+    padding: 50px !important;
+    text-align: center !important;
+    background-color: #3f7cff !important;
+    color: white !important;
+}
+
+.container {
+    padding: 0 16px !important;
+}
+
+.container::after,
+.row::after {
+    content: "" !important;
+    clear: both !important;
+    display: table !important;
+}
+
+.title {
+    color: grey !important;
+}
+
+.button {
+    border: none !important;
+    outline: 0 !important;
+    display: inline-block !important;
+    padding: 8px !important;
+    color: white !important;
+    background-color: #6098f8 !important;
+    text-align: center !important;
+    cursor: pointer !important;
+    width: 100% !important;
+}
+
+.button:hover {
+    background-color: #898383 !important;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100% !important;
+        display: block !important;
+    }
+}
